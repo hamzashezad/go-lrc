@@ -10,12 +10,13 @@ import (
 )
 
 func main() {
-	path := flag.String("f", "", "path to .lrc file")
+	path := flag.String("path", "", "path to .lrc file")
+	flag.Parse()
+
 	if *path == "" {
 		slog.Error("path to .lrc is required")
 		os.Exit(1)
 	}
-	flag.Parse()
 
 	file, err := os.Open(*path)
 	if err != nil {
