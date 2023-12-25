@@ -6,4 +6,4 @@ Reads an `.lrc` file and outputs lyrics.
 go run ./... -f=/path/to/lrc/file
 ```
 
-[![asciicast](https://asciinema.org/a/KgbW5AeONKKI1jIYqUcoiSQjR.svg)](https://asciinema.org/a/KgbW5AeONKKI1jIYqUcoiSQjR)
+[![asciicast](https://asciinema.org/a/628895.svg)](https://asciinema.org/a/628895)
